@@ -1,4 +1,5 @@
-class Person():
+# Создане экземляров класса
+class Person:
     """Создаем человек"""
 
     def __init__(self, name, age, height, weight):
@@ -10,7 +11,10 @@ class Person():
 
     def description_person(self):
         """Получения описания человека"""
-        description = f'{self.name} ему {self.age} месяца / лет, его рост {self.height} см и его вес {self.weight} кг'
+        description = (
+            f'{self.name} ему {self.age} месяца / лет, его рост {self.height} см и его'
+            f' вес {self.weight} кг'
+        )
         print(f'Нового человека зовут {description}')
 
 
