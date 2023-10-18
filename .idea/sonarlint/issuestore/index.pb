@@ -19,3 +19,9 @@ B
 :
 
 oop/dog.py,4\9\49a588668d9654e4a179c7982ebb30fce032a238
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+B
+oop/proglib_oop.py,a\e\aec7530e75b1f2255d0ebca75444c7f476b1b06a
+C
+oop/nasledovanie.py,2\2\224f8475bf52574d2386e53aaf2a738309debb3e
