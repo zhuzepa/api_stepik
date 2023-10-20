@@ -29,13 +29,6 @@ class Truck(Car):
         super().__init__(model, year_of_issue, engine_capacity, price, mileage)
         self.number_of_wheels = 8
 
-    def description_truck(self):
-        """Получение описания грузовика"""
-        description = (f'Модель машины {self.model}, она {self.year_of_issue} года выпуска, у неё объём двигателя'
-                       f' {self.engine_capacity} л/с, стоит такая машина {self.price} с пробегом {self.mileage}'
-                       f' и у нее {self.number_of_wheels} колес')
-        return description
-
 
 truck = Truck('Jac', 2015, 2.6, 3400000, 280000)
-print(truck.description_truck())
+print(truck.description())
