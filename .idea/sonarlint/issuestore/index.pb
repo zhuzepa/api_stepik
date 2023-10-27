@@ -60,3 +60,7 @@ a
 ,HW/basics_of_api_automation/google_delete.py,2\2\22445afaff5453ffbdcbbd53e70300fbe108a7ca
 @
 config/config.py,2\7\27d4d7647829a2eea86c4e51538293c369ae954c
+>
+HW/hw_api_5.py,a\8\a864fd9bc9075c597c69b4abed20be2846c4f77c
+>
+characters.txt,4\b\4bb5fed3dee5f7716a9c864cb89e90672a71ea95
