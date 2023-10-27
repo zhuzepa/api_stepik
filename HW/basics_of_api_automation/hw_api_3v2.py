@@ -57,10 +57,7 @@ class NewLocationHW:
 
             """Проверка создание новой локации"""
             self.checking_location_creation(place_id)
-        # self.write_file(place_ids)
-        # self.delete_place(place_ids[1])
-        # self.delete_place(place_ids[3])
-
+        self.write_file(place_ids)
 
     def checking_location_creation(self, place_id):
         """Проверка локации из файла"""
@@ -73,21 +70,10 @@ class NewLocationHW:
         else:
             print('Провал!! Запрос ошибочный')
 
-    # @staticmethod
-    # def delete_place(place_id):
-    #     data = {'place_id': place_id}
-    #
-    #     response_delete = requests.delete(urljoin(BASE_URL_RAHULS, RAHULS.PATH_PLEASE_DEL), json=data)
-    #     print(response_delete.text)
-    #     if response_delete.status_code == 200:
-    #         print('Проверка удаления place_id:, прошла успешна')
-    #     else:
-    #         print('Провал!! Запрос ошибочный')
-    #
-    # @staticmethod
-    # def write_file(place_ids):
-    #     with open('resource/file.txt', 'w') as file:
-    #         json.dump(place_ids, file, indent=4)
+    @staticmethod
+    def write_file(place_ids):
+        with open('resource/file.txt', 'w') as file:
+            json.dump(place_ids, file, indent=4)
 
 
 new_place = NewLocationHW()
